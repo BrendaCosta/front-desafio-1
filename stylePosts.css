@@ -1,0 +1,68 @@
+.post {
+  padding-bottom: 46px;
+}
+
+.lista {
+  padding-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-left: 35px;
+}
+.recuo {
+  padding-left: 40px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 354px;
+  height: 42px;
+}
+
+input:hover {
+  cursor: pointer;
+  border: 1px solid #fe0078;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  padding-right: 24px;
+  padding-top: 24px;
+}
+textarea {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 732px;
+  height: 176px;
+  resize: none;
+}
+
+textarea:hover {
+  cursor: pointer;
+  border: 1px solid #fe0078;
+}
+
+.button {
+  all: unset;
+  background: #fe0078;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 12px 24px;
+  color: #fff;
+}
+
+.button:hover {
+  cursor: pointer;
+}
