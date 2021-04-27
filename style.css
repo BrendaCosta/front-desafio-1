@@ -156,11 +156,15 @@ input {
   height: 42px;
 }
 
+
+
 input:hover {
   cursor: pointer;
   border: 1px solid #fe0078;
 }
-
+.email{
+  padding-right: 0;
+}
 .dados {
   display: flex;
   flex-direction: column;
