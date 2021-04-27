@@ -77,8 +77,7 @@ header li {
   grid-template-columns: 2fr 1fr;
   grid-template-areas: 'main aside';
 }
-main {
-  /* height: 90vh; */
+main { 
   grid-area: main;
   margin-top: 56px;
   margin-left: 140px;
@@ -92,6 +91,7 @@ main {
   margin-bottom: 40px;
 }
 
+
 .post img {
   width: 100%;
   margin-top: 14px;
@@ -104,6 +104,21 @@ p {
   margin-left: 24px;
   margin-right: 24px;
 }
+
+.preenchimento {
+  padding-bottom: 46px;
+}
+
+.lista {
+  padding-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-left: 35px;
+}
+.recuo {
+  padding-left: 40px;
+}
+
 .btn {
   display: flex;
   justify-content: flex-end;
@@ -126,6 +141,65 @@ p {
   background: #fe0078;
 }
 
+/*SESSÃO DE COMENTÁRIO*/
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 260px;
+  height: 42px;
+}
+
+input:hover {
+  cursor: pointer;
+  border: 1px solid #fe0078;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  padding-right: 24px;
+  padding-top: 24px;
+}
+textarea {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: 176px;
+  resize: none;
+}
+
+textarea:hover {
+  cursor: pointer;
+  border: 1px solid #fe0078;
+}
+
+.button {
+  all: unset;
+  background: #fe0078;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 12px 24px;
+  color: #fff;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+
+
+
+/*LATERAL*/
 .box {
   display: flex;
   flex-direction: column;
