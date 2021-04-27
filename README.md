@@ -15,6 +15,6 @@ Você está livre para utilizar o método de layout de sua preferência (flex, g
 
 **LEMBRE-SE**: é melhor feito do quê perfeito!!!
 
-
+### Link do [desafio feito](https://brendacosta.github.io/front-desafio-1/)
 
 ###### tags: `front-end` `módulo 1` `HTML` `CSS` `desafio`
