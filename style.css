@@ -163,14 +163,18 @@ aside input:hover {
   margin-bottom: 40px;
 }
 
-table td {
+.lista_categoria {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
   font-size: 14px;
   color: #545454;
   padding: 0.5rem;
   border-bottom: 2px dashed #eeeeee;
+  padding-bottom: 16px;
 }
 
-table td:hover {
+.lista_categoria:hover {
   border-bottom: 2px dashed #fe0078;
   color: #fe0078;
 }
